@@ -52,5 +52,5 @@ jspm_packages/
 .yarn-integrity
 
 # PM2
-pm2-*.json
-ecosystem.config.js
+# pm2-*.json
+# ecosystem.config.js
