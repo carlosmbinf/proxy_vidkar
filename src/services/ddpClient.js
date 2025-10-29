@@ -1,7 +1,7 @@
 const SimpleDDP = require('simpleddp');
 const ws = require('isomorphic-ws');
 
-const endpoint = process.env.DDP_ENDPOINT || 'ws://www.vidkar.com:6000/websocket';
+const endpoint = process.env.DDP_ENDPOINT || 'ws://www.vidkar.com:3000/websocket';
 const baseReconnectInterval = Number(process.env.DDP_RECONNECT_INTERVAL || 10000);
 const maxReconnectInterval = Number(process.env.DDP_MAX_RECONNECT_INTERVAL || 10000);
 
